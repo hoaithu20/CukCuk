@@ -1,0 +1,90 @@
+.content {
+    position: absolute; /*Can theo cha*/
+    top: 48px;
+    left: 226px;
+    right: 0;
+    bottom: 0;
+    padding: 24px;
+}
+
+    .content .paging {
+        position: absolute;
+        height: 56px;
+        left: 0px;
+        width: 100%;
+        bottom: 0;
+        border-top: 1px solid #bbbbbb;
+    }
+    .content .paging .paging-bar {
+       display: flex;
+        position: absolute;
+        left: 16px;
+        right: 16px;
+        align-items: center;
+        height: 55px;   
+    }
+        .content .paging .paging-bar .paging-record-option {
+            position: absolute;
+            right: 16px;
+        }
+        .content .paging .paging-bar .paging-record-info {
+            position: absolute;
+            left: 16px;
+        }
+        .content .paging .paging-bar .paging-option {
+            position: absolute;
+            /* left: 0px; */
+            display: flex;
+            /* display: inline-block; */
+            height: 100%;
+            width: 40%;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            left: 30%;
+            cursor: pointer;
+        }
+    .btn-select-prev-list-page {
+        background-image: url('../../content/icon/btn-firstpage.svg');
+        width: 24px;
+        height: 24px;
+    }
+.btn-select-prev-page {
+    background-image: url('../../content/icon/btn-prev-page.svg');
+    width: 18px;
+    height: 24px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.btn-select-next-list-page {
+    background-image: url('../../content/icon/btn-lastpage.svg');
+    width: 18px;
+    height: 24px;
+}
+
+.btn-select-next-page {
+    background-image: url('../../content/icon/btn-next-page.svg');
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+    margin-left:10px;
+}
+.page-number {
+    width: 30px;
+    height: 30px;
+    margin: 0 4px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    background-color: #e9ebee;
+    outline: none;
+    cursor: pointer !important;
+}
+.page-number:hover {
+    background-color: #ffffff;
+    border: none;
+}
+    .page-number:focus {
+        background-color: #019160;
+        color: #ffffff;
+    }

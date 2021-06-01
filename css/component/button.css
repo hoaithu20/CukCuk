@@ -1,0 +1,39 @@
+﻿.btn {
+    border: none;
+    background-color: #019160;
+    border-radius: 4px;
+    height: 40px;
+    font-size: 13px;
+    color: #ffffff;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+    display: inline-block;
+    line-height: 40px;
+    outline: none;
+    cursor: pointer;
+}
+
+    .btn:hover {
+        background-color: #2FBE8E;
+    }
+
+    .btn:active {
+        background-color: #01B075;
+    }
+    button.del-employee.cbb {
+        padding-left: 6px;
+        background-color: #F65454;
+        color: #fff;
+        cursor: pointer;
+    }
+    .btnDelEmployee {
+        position: absolute;
+        right: 170px;
+        background-color: #F65454;
+    }
+    .btnDelEmployee:hover {
+        background-color:#FFEBEB;
+        color: black;
+
+    }

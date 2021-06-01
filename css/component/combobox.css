@@ -1,0 +1,21 @@
+.cbb {
+    height: 40px;
+    border: 1px solid #bbbbbb;
+    color: #bbbbbb;
+    border-radius: 4px;
+    color: #000000;
+    font-family: GoogleSans-Regular;
+    padding-left: 16px;
+    outline: none;
+    width: 100%;
+}
+    .cbb:focus {
+      
+        border: 1px solid #019160;
+        
+    }
+
+@font-face {
+    font-family: 'GoogleSans-Regular';
+    src: url('../../content/font/GoogleSans-Regular.otf') format('opentype');
+}

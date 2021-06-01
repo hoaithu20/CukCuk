@@ -1,0 +1,51 @@
+﻿.page-header {
+    width: 100%;
+    display: flex; /*cho2 phân tử trên 1 dòng*/
+    align-items: center; /*căn giữa cho phần tử*/
+    height:40px;
+    
+}
+
+    .page-header .page-title {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+.page-toolbar {
+    height: 40px;
+    width: 100%;
+    display: flex;
+
+}
+
+/*Bảng dữ liệu*//* ctrl KC */
+
+
+/*Other*/
+.btnAddEmployee {
+    position: absolute;
+    float: right;
+    right: 24px;
+}
+
+#btnRefresh {
+    position: absolute;
+    background-image: url('../../content/icon/refresh.png');
+    width: 48px;
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid #bbbbbb;
+    padding-left: 16px;
+    padding-right: 16px;
+    outline: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ffffff;
+    float: right;
+    right: 24px;
+    top: 68px;
+    cursor: pointer;
+}
+#btnRefresh:hover {
+    background-color: #e5e5e5;
+}

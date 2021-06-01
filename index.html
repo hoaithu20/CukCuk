@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link href="css/main.css" rel="stylesheet" />
+
+    <link href="css/component/button.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="addCustomer-dialog" title="Thông tin nhân viên" <!--style="display: none;-->">
+        <div class="dialog-content">
+            <div class="dialog-body">
+                <div class="dialog-avt">
+                    <div class="dialog-avt-img"></div>
+                    <div class="dialog-avt-text" style="text-align: center;">(Vui lòng chọn ảnh có định dạng<br><b>.jpg .jpeg .png .gif)</b></div>
+                </div>
+                <div class="dialog-form">
+                    <div class="dialog-form-general">
+                        <div class="form-general-title">
+                            <h3>A. THÔNG TIN CHUNG:</h3>
+                        </div>
+                        <div class="form-general">
+                            <div class="form-flex">
+                                <div class="flex-1">
+                                    <div class="input-label">Mã nhân viên (<span id="label-required">*</span>)</div>
+                                    <div class="input-control">
+                                        <input id="inputEmployeeCode" class="dialog-input" type="text" />
+                                    </div>
+                                </div>
+                                <div class="flex-1">
+                                    <div class="input-label">Họ và tên (<span id="label-required">*</span>)</div>
+                                    <div class="input-control">
+                                        <input id="inputFullName" class="dialog-input" type="text" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-flex">
+                                <div class="flex-1">
+                                    <div class="input-label">Ngày sinh</div>
+                                    <div class="input-control">
+                                        <input id="inputDateOfBirth" class="dialog-input" type="date" />
+                                    </div>
+                                </div>
+                                <div class="flex-1">
+                                    <div class="input-label">Giới tính</div>
+                                    <select id="inputGender" class="dialog-input">
+                                        <option value="0">Nam</option>
+                                        <option value="1">Nữ</option>
+                                        <option value="2">Khác</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-flex">
+                                <div class="flex-1">
+                                    <div class="input-label">Số CMTND/ Căn cước (<span id="label-required">*</span>)</div>
+                                    <div class="input-control">
+                                        <input id="inputIdentityNumber" class="dialog-input" type="text" />
+                                    </div>
+                                </div>
+                                <div class="flex-1">
+                                    <div class="input-label">Ngày cấp</div>
+                                    <div class="input-control">
+                                        <input id="inputIdentityDate" class="dialog-input" type="date" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-flex">
+                                <div class="flex-1">
+                                    <div class="input-label">Nơi cấp</div>
+                                    <div class="input-control">
+                                        <input id="inputIdentityPlace" class="dialog-input" type="text" />
+                                    </div>
+                                </div>
+                                <div class="flex-1"></div>
+                            </div>
+                            <div class="form-flex">
+                                <div class="flex-1">
+                                    <div class="input-label">Email (<span id="label-required">*</span>)</div>
+                                    <div class="input-control">
+                                        <input id="inputEmail" class="dialog-input" type="text" />
+                                    </div>
+                                </div>
+                                <div class="flex-1">
+                                    <div class="input-label">Số điện thoại (<span id="label-required">*</span>)</div>
+                                    <div class="input-control">
+                                        <input id="inputPhoneNumber" class="dialog-input" type="text" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dialog-form-job">
+                        <div class="form-job-title">
+                            <h3>B. THÔNG TIN CÔNG VIỆC:</h3>
+                        </div>
+                        <div class="form-flex">
+                            <div class="flex-1">
+                                <div class="input-label">Vị trí</div>
+                                <select id="inputPosition" class="dialog-input">
+                                    <option value="1">Giám đốc</option>
+                                    <option value="2">Nhân viên marketing</option>
+                                    <option value="3">Thu ngân</option>
+                                </select>
+                            </div>
+                            <div class="flex-1">
+                                <div class="input-label">Phòng ban</div>
+                                <select id="inputDepartment" class="dialog-input">
+                                    <option value="1">Phòng đào tạo</option>
+                                    <option value="2">Phòng công nghệ</option>
+                                    <option value="3">Phòng nhân sự</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-flex">
+                            <div class="flex-1">
+                                <div class="input-label">Mã số thuế cá nhân</div>
+                                <div class="input-control">
+                                    <input id="inputTaxCode" class="dialog-input" type="text" />
+                                </div>
+                            </div>
+                            <div class="flex-1">
+                                <div class="input-label">Lương cơ bản</div>
+                                <div class="input-control">
+                                    <input id="inputSalary" class="dialog-input" type="text" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-flex">
+                            <div class="flex-1">
+                                <div class="input-label">Ngày gia nhập công ty</div>
+                                <div class="input-control">
+                                    <input id="inputJoinDate" class="dialog-input" type="date" />
+                                </div>
+                            </div>
+                            <div class="flex-1">
+                                <div class="input-label">Tình trạng công việc</div>
+                                <select id="inputWorkStatus" class="dialog-input">
+                                    <option value="1">Đang làm việc</option>
+                                    <option value="0">Đã nghỉ</option>
+
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="dialog-footer">
+                <button id="dialog-Cancel"><span class="Cancel-text">Hủy</span></button>
+                <button id="dialog-Save"><span class="Save-text">Lưu</span></button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+.grid {
+    height: calc(100% - 112px);
+    overflow-y: auto; /*Thanh cuộn theo chiều dọc*/
+    overflow-x: auto;
+}
+
+table {
+    border-collapse: collapse; /*để mat khoang trang ở giữa 2 cột*/
+}
+
+    table body {
+        font-weight: normal;
+    }
+
+    table thead {
+        font-weight: bold;
+    }
+
+    table tr, td{
+        height: 48px;
+        border-bottom: 1px solid #bbbbbb;
+        text-align: left; /*căn trái cho text*/
+        font-weight: normal;
+    }
+    table th {
+        height: 48px;
+        border-bottom: 1px solid #bbbbbb;
+        text-align: left; /*căn trái cho text*/
+    }
+
+th,td{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+th:first-child, th:last-child, td:first-child, td:last-child{
+    padding-left: 16px;
+}
+    table tr {
+        cursor: pointer;
+    }
+
+        table tr:hover {
+            background-color: #e5e5e5;
+        }
+.tr-focus {
+    background-color: #EBF9F4;
+}
+

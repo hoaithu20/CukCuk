@@ -1,0 +1,118 @@
+
+/*.header {
+    position: absolute;
+    top: 0px;
+    left: 226px;
+    height: 48px;
+    width: calc(100% - 200px);
+    align-items: center;
+    box-sizing: border-box;*/ /*tăng padding hay border không làm thay đổi size*/
+    /*background-color: #ffffff;
+    border-bottom: 1px solid #E5E5E5;
+    font-size: 15px;   
+}
+
+    .header .header-left {
+        height: 48px;
+        padding-left: 16px;
+        display: flex;
+        align-items: center;
+    }
+
+    .header .header-left .header-left-cbb {
+        height: 40px;
+        border: 1px;
+        border-color: #bbbbbb;
+        color: #bbbbbb;
+        border-radius: 4px;
+        color: #000000;
+        font-family: GoogleSans-Regular;
+        padding-left: 16px;
+        padding-right: 10px;
+        outline: none;
+        font-weight: bold;
+    }
+    .header .header-right {
+        float: right;
+        display: flex;
+        align-items: center;
+        height: 48px;
+        position: absolute;
+    }
+        .header .header-right .header-right-ava {
+            background-image: url('../../content/icon/avatar-default.png');
+            width: 10px;
+            height: 10px;
+        }
+        .header .header-right .header-right-icon {
+            background-image: url('../../content/icon/option.png');
+        }*/
+
+.header {
+    position: absolute;
+    top: 0px;
+    left: 227px;
+    height: 48px;
+    width: calc(100% - 227px);
+    align-items: center;
+    box-sizing: border-box; /*tăng padding hay border không làm thay đổi size*/
+    background-color: #ffffff;
+    border-bottom: 1px solid #bbbbbb;
+    font-size: 15px;
+}
+
+    .header .header-left {
+        float: left;
+        height: 48px;
+        padding-left: 16px;
+        display: flex;
+        align-items: center;
+      
+    }
+
+        .header .header-left .header-left-cbb {
+            height: 40px;
+            border: 1px;
+            border-color: #bbbbbb;
+            color: #bbbbbb;
+            border-radius: 4px;
+            color: #000000;
+            font-family: GoogleSans-Regular;
+            padding-left: 16px;
+            padding-right: 10px;
+            outline: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+    .header .header-right {
+        float: right;
+        display: flex;
+        align-items: center;
+        height: 48px;
+        font-weight:bold;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+        .header .header-right .header-right-ava {
+            height: 34px;
+            width: 34px;
+            margin-right: 16px;
+            background-image: url('../../content/icon/avatar-default.png');
+            background-size: cover;
+        }
+
+        .header .header-right .header-right-text {
+            margin-right: 16px;
+        }
+
+        .header .header-right .header-right-icon {
+            height: 24px;
+            width: 24px;
+            margin-right: 16px;
+            background-image: url('../../content/icon/option.png');
+            background-repeat: no-repeat;
+        }
+
+

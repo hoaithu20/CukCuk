@@ -1,0 +1,81 @@
+.alert-model {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    opacity: .2;
+}
+.alert .alert-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    transform: translate(-59%, -43%);
+    background-color: #fff;
+    /* padding: 24px; */
+    padding-top: 24px;
+    /* padding-bottom: 80px; */
+    border-radius: 4px;
+}
+/*header*/
+.alert .alert-box .alert-header {
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    
+}
+.alert-close {
+    background-image: url(../../content/icon/x.svg);
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-color: #FFF;
+    border: none;
+    background-position: center; /*cho dấu x vào giữa*/
+    cursor: pointer;
+    outline: none;
+}
+.alert-close:hover {
+    background-color: #e5e5e5;
+}
+.text-header {
+    padding-left: 24px
+}
+.text-del {
+    padding-left: 80px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-right: 24px;
+}
+.alert-footer {
+    height: 60px; 
+    background-color: #e5e5e5!important;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+}
+button.btn.sure {
+    width: 70px;
+    position: absolute;
+    right: 24px;
+    background-color: #F65454;
+    margin: 10px;
+}
+.btn.cancel {
+    width: 100px;
+    position: absolute;
+    right: 120px;
+    background-color: #e5e5e5;
+    color: #000;
+    margin: 10px;
+}
+.btn.cancel:hover{
+    background-color: #DADCE0;
+}
+.alert-hide {
+    visibility: hidden;
+}

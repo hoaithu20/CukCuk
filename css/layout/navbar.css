@@ -1,0 +1,75 @@
+﻿.navbar {
+    width: 226px;
+    height: 100vh;
+    border-right: 1px solid #bbbbbb;
+}
+
+    .navbar .logo-box {
+        width: 226px;
+        height: 48px;
+        /*cho 2 phân tử cùng dòng*/
+        display: flex;
+        /*căn đúng các phan tử vào giứa nếu có display: flex*/
+        align-items: center;
+        flex-shrink: 0;
+        cursor: pointer;
+    }
+
+        .navbar .logo-box .toggle {
+            margin-left: 16px;
+            width: 24px;
+            height: 24px;
+            background-image: url(../../content/img/toggle.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position-y: center;
+            flex-shrink: 0;
+        }
+
+        .navbar .logo-box .logo-page {
+            height: 24px;
+            margin-left: 10px;
+            background-image: url('../../content/cukcuk-logo.png');
+            width: 100%;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position-y: center;
+        }
+
+
+
+    .navbar .navbar-content {
+        width: 100%;
+        background-color: #ffffff;
+    }
+.navbar .navbar-item {
+    display: flex;
+    align-items:center;
+    height: 44px;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+    .navbar .navbar-item:hover {
+        background-color: #e5e5e5;
+        color: #000000;
+    }
+    .navbar .navbar-item:focus {
+        background-color: #019160;
+        color: #ffffff;
+    }
+        .navbar .navbar-item-icon {
+            margin-left: 16px;
+            width: 20px;
+            height: 20px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+    .navbar .navbar-item-text {
+        margin-left: 16px;
+
+    }
+    .icon-dashbroad {
+
+    }
